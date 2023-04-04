@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/47db13d4cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="d-flex flex-row justify-content-center">
+            <a class="nav-items-styles mt-1">All</a>
+            <a class="nav-items-styles mt-1">IMAGES</a>
+        </ul>
+        <ul class="d-flex flex-row justify-content-center">
+            <img class="google_user_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolFBH1ihbrdRCWzFsmsE8CYb4JjNO-rKdSA&usqp=CAU">
+            <img class="google_user_image" src="data:image/jpeg;base64,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">
+        </ul>
+    </nav>
+
+    <div class="background-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img class="google-image" src="https://media.tenor.com/xfmMlSJRvdoAAAAC/google-voice-search.gif">
+                </div>
+                <div class="col-12">
+                    <div class="search-bar d-flex flex-row justify-content-center">
+                        <img class="google_search_image" src="https://cdn.dribbble.com/users/1785190/screenshots/3906047/search.gif">
+                        <form action="https://www.google.com/search?q=" method="GET" target="_blank" class="search-bar-input">
+                            <input type="text" name="q" placeholder="Search Google or type a URL">
+                        </form>
+                        <img class="google_voice_image" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png">
+                    </div>
+                    <input type="submit" value="Google Search" arir-lable="Google Search" class="home-page-buttons">
+                    <input type="submit" value="I'm Feeling Lucky" arir-lable="I'm Feeling Lucky" class="home-page-buttons">
+                </div>
+                <div class="col-12">
+                    <p class="languages-offered">Google offered in: <span> हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-container fixed-bottom">
+        <div class="mt-3 ml-2">
+            <p class="footer-description">India</p>
+            <hr>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2 d-flex flex-content justify-content-center">
+                    <a class="footer-description" href="">Dark theme: off</a>
+                    <a class="footer-description" href="">Settings</a>
+                    <a class="footer-description" href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>
+                    <a class="footer-description" href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+                </div>
+                <div class="col-12 col-md-6 mb-2 d-flex flex-content justify-content-center">
+                    <a class="footer-description" href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000114-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                    <a class="footer-description" href="https://www.google.com/intl/en_in/business/">Business</a>
+                    <a class="footer-description" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
+                    <a class="footer-description" href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
